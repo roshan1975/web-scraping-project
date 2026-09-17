@@ -39,3 +39,6 @@ os.makedirs(folder, exist_ok=True)
 save_path = os.path.join(folder, "Hockey_Teams.csv")
 
 df.to_csv(save_path, index=False)
+
+print(f"Total data scraped: {len(df)}")
+print(f"Saved to {save_path}")
