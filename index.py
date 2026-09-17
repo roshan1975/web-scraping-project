@@ -32,3 +32,10 @@ for i in range(1, 6):
 
         if row_data:
             all_data.append(row_data)
+            
+df = pd.DataFrame(all_data, columns=column_names)
+folder = os.path.join(os.path.expanduser("~"), "Desktop")
+os.makedirs(folder, exist_ok=True)
+save_path = os.path.join(folder, "Hockey_Teams.csv")
+
+df.to_csv(save_path, index=False)
