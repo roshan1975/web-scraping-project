@@ -6,3 +6,10 @@ import os
 
 all_data = []
 column_names = []
+
+for i in range(1, 6):
+    url = f"https://www.scrapethissite.com/pages/forms/?page_num={i}"
+    header = {"User-Agent": "Mozilla/5.0"}
+
+    print(f"Scraping page: {i}")
+    response = requests.get(url, headers=header)
