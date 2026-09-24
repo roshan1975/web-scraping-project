@@ -40,11 +40,11 @@ python scraper.py
 ### Step 4
 The program will scrape pages 1 to 5:
 
-Scraping page: 1
-Scraping page: 2
-Scraping page: 3
-Scraping page: 4
-Scraping page: 5
+1. Scraping page: 1
+2. Scraping page: 2
+3. Scraping page: 3
+4. Scraping page: 4
+5. Scraping page: 5
 
 like this
 
