@@ -40,11 +40,11 @@ python scraper.py
 ### Step 4
 The program will scrape pages 1 to 5:
 
-1. Scraping page: 1
-2. Scraping page: 2
-3. Scraping page: 3
-4. Scraping page: 4
-5. Scraping page: 5
+- Scraping page: 1
+- Scraping page: 2
+- Scraping page: 3
+- Scraping page: 4
+- Scraping page: 5
 
 like this
 
@@ -59,23 +59,23 @@ The file will be saved on the Desktop.
 
 While making this project, I learned:
 
-1. How to send requests to a website
-2. How to use BeautifulSoup
-3. How to find HTML elements
-4. How to collect table data
-5. How to use Pandas
-6. How to save data as a CSV file
-7. How to scrape multiple pages
-8. How to work with file paths
+- How to send requests to a website
+- How to use BeautifulSoup
+- How to find HTML elements
+- How to collect table data
+- How to use Pandas
+- How to save data as a CSV file
+- How to scrape multiple pages
+- How to work with file paths
 
 # 6. Tools I Used
 
-1. Python
-2. Requests
-3. BeautifulSoup
-4. Pandas
-5. VS Code
-6. CSV
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+- VS Code
+- CSV
 
 # 7. About Me
 
