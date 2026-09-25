@@ -57,16 +57,17 @@ The file will be saved on the Desktop.
 
 # 5. What Did I Learn?
 
-While making this project, I learned:
+While working on this Web Scraping project, I learned how to:
 
-- How to send requests to a website
-- How to use BeautifulSoup
+- Send requests to a website using `Requests`
+- Extract HTML data using `BeautifulSoup`
 - How to find HTML elements
 - How to collect table data
-- How to use Pandas
-- How to save data as a CSV file
-- How to scrape multiple pages
-- How to work with file paths
+- Store scraped data using Pandas
+- Scrape data from multiple pages
+- Save scraped information into a CSV file
+- Work with file paths using Python
+
 
 # 6. Tools I Used
 
