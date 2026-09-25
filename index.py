@@ -1,4 +1,3 @@
-from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
@@ -12,7 +11,6 @@ for i in range(1, 6):
     header = {"User-Agent": "Mozilla/5.0"}
 
     print(f"Scraping page: {i}")
-    print(f"Scraping page-2: {i}")
     response = requests.get(url, headers=header)
     
     soup = BeautifulSoup(response.text, "html.parser")
